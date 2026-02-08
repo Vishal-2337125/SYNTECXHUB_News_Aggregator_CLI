@@ -10,7 +10,7 @@ What we are doing: Instead of manually checking news sites every hour, we have b
 To keep the code clean and professional, we divided the project into four specialized modules:
 1. The Scraper (fetcher.py)
     Role: The "Eyes" of the project.
-    What it does: It connects to the internet, downloads the website's code, and uses BeautifulSoup to hunt for specific HTML tags (like <h2> or <a>) that contain headlines.
+    What it does: It connects to the internet, downloads the website's code, and uses BeautifulSoup to hunt for specific HTML tags  that contain headlines.
     Logic: It filters out junk text and ensures only actual news titles are collected.
 
 2. The Database (database.py)
