@@ -27,6 +27,12 @@ Logic: It converts plain text links into executable =HYPERLINK formulas, so the 
 Role: The "Controller."
 What it does: It coordinates the other three modules. It tells the Fetcher to start, hands the data to the Database, and finally triggers the Exporter.
 
+5. Why these specific libraries?
+  requests-Connects to the news website and downloads the page content.
+  beautifulsoup4-Sifts through the HTML code to find headlines and links.
+  pandas-Manages the data in a table format and handles the transfer to Excel.
+  openpyxl-The "engine" that allows you to style cells and create clickable hyperlinks.
+
 
 🚀 How to Run It
 Configure: Set your target link in config.py.
